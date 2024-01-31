@@ -1,0 +1,47 @@
+@media (min-width: 1000px) {
+    header nav {
+        display: block !important;
+    }
+}
+
+/* To je bůh = !important */
+
+
+@media (max-width: 1000px) {
+    header nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        background-color: white;
+        width: 100%;
+        z-index: 1;
+    }
+
+
+    header nav li {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        line-height: 1.5em;
+        height: 25px;
+        background: none !important;
+        line-height: 1.5em;
+        border-bottom: 2px solid #333;
+    }
+
+    .menu-icon {
+        display: block;
+        color: black;
+        font-size: 23px;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .logo img {
+        max-width: 50%;
+        height: auto;
+    }
+
+
+}

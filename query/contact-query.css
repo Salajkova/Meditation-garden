@@ -1,0 +1,9 @@
+@media only screen and (min-width: 1000px) {
+    .adress {
+        flex: 1;
+    }
+
+    .map {
+        width: 50%; /* Nebo jiná vhodná hodnota */
+    }
+}

@@ -1,0 +1,194 @@
+ main {
+     min-height: 100vh;
+ }
+
+ .mainheading {
+     display: flex;
+     justify-content: end;
+     margin-right: 10%;
+     margin-left: 10%;
+ }
+
+ .mainheading h1 {
+     text-align: center;
+     justify-content: end;
+     padding-bottom: 30px;
+     padding-top: 30px;
+     background: linear-gradient(rgb(0, 0, 0), white);
+     -webkit-background-clip: text;
+     color: transparent;
+     font-size: 30px;
+     margin-bottom: 5px;
+ }
+
+ /*Seminars list section*/
+ .all-seminars {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding-bottom: 30px;
+
+ }
+
+ .one-seminar {
+     width: 80%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* align-items: center; */
+     text-align: left;
+
+     background-color: rgba(250, 235, 215, 0.849);
+     border: 2px solid white;
+     border-radius: 10px;
+     box-shadow: 5px 5px rgb(121, 120, 120);
+     transition: all 0.3s linear;
+     padding-left: 30px;
+ }
+
+ .one-seminar p {
+
+     padding-right: 20px;
+     padding-top: 7px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 1.5;
+     color: #464647;
+ }
+
+ .one-seminar h2 {
+     padding: 18px 0px;
+ }
+
+
+ .one-seminar a {
+     width: 90px;
+     text-decoration: none;
+     font-size: 18px;
+     padding: 5px 20px;
+     background: linear-gradient(rgba(23, 183, 92, 0.5), rgba(104, 232, 75, 0.75));
+     border-radius: 5px;
+     color: #464647;
+     margin-top: 13px;
+     margin-bottom: 5px;
+     box-shadow: 2px 2px;
+
+
+ }
+
+ .one-seminar a:hover {
+     transform: scale(1.05);
+ }
+
+ .adder {
+
+     font-size: 18px;
+     padding: 5px 20px;
+     background: linear-gradient(rgba(23, 183, 92, 0.5), rgba(104, 232, 75, 0.75));
+     border-radius: 5px;
+     color: #333;
+     margin-bottom: 15px;
+     margin-left: 60%;
+     width: 110px;
+     justify-content: center;
+     box-shadow: 2px 2px;
+ }
+
+ .adder:hover {
+     transform: scale(1.05);
+ }
+
+ .adder a {
+     text-decoration: none;
+     color: #464647;
+ }
+
+ /*old seminars*/
+
+ .all-old_seminars {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding-bottom: 30px;
+
+ }
+
+ .one-old_seminar {
+     width: 80%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* align-items: center; */
+     text-align: left;
+
+     background-color: rgba(250, 235, 215, 0.849);
+
+     border-radius: 10px;
+     box-shadow: 5px 5px rgb(121, 120, 120);
+     transition: all 0.3s linear;
+     padding-left: 30px;
+ }
+
+ .one-old_seminar p {
+
+     padding-right: 20px;
+     padding-top: 7px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 1.5;
+     color: #464647;
+ }
+
+ .one-old_seminar h2 {
+     padding: 18px 0px;
+ }
+
+ /* css for paging */
+ .page {
+     display: none;
+ }
+
+ .page.active {
+     display: block;
+ }
+
+ .link-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: end;
+
+     margin-right: 10%;
+     margin-left: 10%;
+     margin-bottom: 10px;
+     /* margin-bottom: 20px; */
+
+ }
+
+ .link {
+     cursor: pointer;
+     color: #51cf70;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     margin-right: 20px;
+     padding: 10px;
+     background: linear-gradient(rgba(245, 242, 242, 1), rgba(247, 245, 245, 0.35));
+
+     border-radius: 0px;
+     transition: color 0.3s, font-size 0.3s, background-color 0.3s;
+ }
+
+ .link:hover {
+     color: #00b300;
+     background-color: #e0e0e0;
+ }

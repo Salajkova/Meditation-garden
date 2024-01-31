@@ -1,0 +1,1 @@
+<footer> <p>&copy; Meditační zahrada SHIBUMI</p></footer>

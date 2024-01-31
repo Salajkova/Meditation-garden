@@ -1,0 +1,13 @@
+footer {
+    background: linear-gradient( rgb(145, 206, 138),rgb(83, 137, 83));
+    color: white;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    /* Jak to dát na střed nebo footer p {line-height: 70px;} */
+}
+
